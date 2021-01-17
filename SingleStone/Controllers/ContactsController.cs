@@ -25,7 +25,7 @@ namespace SingleStone.Controllers
         }
         // GET api/contacts
         /// <summary>
-        /// Returns all contacts in the database
+        /// List all contacts
         /// </summary>
         /// <returns></returns>
         public IHttpActionResult Get()
@@ -42,7 +42,7 @@ namespace SingleStone.Controllers
 
         // GET api/contacts/5
         /// <summary>
-        /// returns the contact with the given ID
+        /// Get a specific contact
         /// </summary>
         /// <param name="id">The ID of the contact to get the information for</param>
         /// <returns></returns>
@@ -71,7 +71,7 @@ namespace SingleStone.Controllers
 
         // GET api/contacts/call-list
         /// <summary>
-        /// Returns a list of all contacts name and home phone number if they have a home phone number. Sorted by last name, then first name
+        /// Get a call list
         /// </summary>
         /// <returns></returns>
         [Route("~/api/contacts/call-list")]
@@ -113,7 +113,7 @@ namespace SingleStone.Controllers
 
         // POST api/contacts
         /// <summary>
-        /// Adds the contact sent to the database
+        /// Create a new contact
         /// </summary>
         /// <param name="contact">The new contact to be added</param>
         /// <returns></returns>
@@ -131,7 +131,7 @@ namespace SingleStone.Controllers
 
         // PUT api/contacts/5
         /// <summary>
-        /// Updates an existing contact in the database
+        /// Update a contact
         /// </summary>
         /// <param name="id">The ID of the contact to update</param>
         /// <param name="contact">the contact model with the data to update the exist contact to</param>
@@ -166,7 +166,7 @@ namespace SingleStone.Controllers
 
         // DELETE api/contacts/5
         /// <summary>
-        /// Deletes the contact from the database with the given id
+        /// Delete a contact
         /// </summary>
         /// <param name="id">the ID of the contatc to delete</param>
         /// <returns></returns>
