@@ -483,33 +483,33 @@
         </member>
         <member name="M:SingleStone.Controllers.ContactsController.Get">
             <summary>
-            Returns all contacts in the database
+            List all contacts
             </summary>
             <returns></returns>
         </member>
         <member name="M:SingleStone.Controllers.ContactsController.Get(System.Int32)">
             <summary>
-            returns the contact with the given ID
+            Get a specific contact
             </summary>
             <param name="id">The ID of the contact to get the information for</param>
             <returns></returns>
         </member>
         <member name="M:SingleStone.Controllers.ContactsController.CallList">
             <summary>
-            Returns a list of all contacts name and home phone number if they have a home phone number. Sorted by last name, then first name
+            Get a call list
             </summary>
             <returns></returns>
         </member>
         <member name="M:SingleStone.Controllers.ContactsController.Post(SingleStone.ContactModel)">
             <summary>
-            Adds the contact sent to the database
+            Create a new contact
             </summary>
             <param name="contact">The new contact to be added</param>
             <returns></returns>
         </member>
         <member name="M:SingleStone.Controllers.ContactsController.Put(System.Int32,SingleStone.ContactModel)">
             <summary>
-            Updates an existing contact in the database
+            Update a contact
             </summary>
             <param name="id">The ID of the contact to update</param>
             <param name="contact">the contact model with the data to update the exist contact to</param>
@@ -517,7 +517,7 @@
         </member>
         <member name="M:SingleStone.Controllers.ContactsController.Delete(System.Int32)">
             <summary>
-            Deletes the contact from the database with the given id
+            Delete a contact
             </summary>
             <param name="id">the ID of the contatc to delete</param>
             <returns></returns>
